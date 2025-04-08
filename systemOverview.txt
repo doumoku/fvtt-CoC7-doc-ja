@@ -1,0 +1,128 @@
+<div class="coc7overview">
+    <h1>バージョン7.7 システム資料</h1>
+    <p>この資料はCoC7システムの概要（作成中）であり、FVTTの操作説明に関するものではありません。</p>
+    <p>ゲームを遊ぶには、以下の内１つが必要です。</p>
+    <ul>
+        <li>KADOKAWA 新クトゥルフ神話TRPG ルールブック</li>
+        <li>KADOKAWA 新クトゥルフ神話TRPG スタートセット</li>
+        <li>KADOKAWA 新クトゥルフTRPG クイックスタート・ルールブック</li>
+    </ul>
+    <p>このシステムはゲーム運用における一般的なタスクやルールを自動化します。</p>
+    <p>Several parts of the actor sheets have pop up tooltips that trigger after two seconds, this delay can be changed in the settings</p>
+    <p>This documentation can be reopened under <em class="fas fa-cogs"> </em>Game Settings -&gt; Help and Documentation -&gt; View CoC7 System Manual</p>
+    <h1>Recent changes</h1>
+    <p>For a full list of changes checkout the <a href="https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/blob/develop/.github/CHANGELOG.md">changelog</a> on GitHub</p>
+    <ul>
+        <li>新探索者シート</li>
+    </ul>
+    <h1>Chaosium Modules</h1>
+    <ul>
+        <li><a href="https://foundryvtt.com/packages/cha-coc-fvtt-en-starterset">Call of Cthulhu® - Starter Set（日本語未訳）</a> - Contains three scenarios (Paper Chase, Edge of Darkness, and Dead Man Stomp) and instructions for playing Call of Cthulhu 7th edition.</li>
+        <li><a href="https://foundryvtt.com/packages/cha-coc-fvtt-en-quickstart">Call of Cthulhu® - Quick-Start Rules</a> - Contains The Haunting scenario and a beginner guide to FoundryVTT and Call of Cthulhu 7th edition.</li>
+        <li><a href="https://foundryvtt.com/packages/call-of-cthulhu-foundryvtt-investigator-wizard">Call of Cthulhu® - FoundryVTT - Investigator Wizard</a> - Released with permission from Chaosium contains archetypes, occupations, setups, and skills for use with the Investigator Creation Wizard.</li>
+    </ul>
+    <h1>Overview sections below</h1>
+    <p>If this is your first time it is recommends you also read the following sections on this page.</p>
+    <p>Foundry VTT is based in actors and items. This module includes a number of system specific actors and items, and some examples of them can be found in the included system compendiums.</p>
+    <ul>
+        <li>@UUID[.pjqHiADSapcdS4fU#actor-overview]{Actor overview}</li>
+        <li>@UUID[.pjqHiADSapcdS4fU#items-overview]{Items overview}</li>
+        <li>@UUID[.pjqHiADSapcdS4fU#settings-overview]{Settings overview}</li>
+        <li>@UUID[.pjqHiADSapcdS4fU#call-of-cthulhu-scene-menu]{Scene menu overview}</li>
+        <li>@UUID[.pjqHiADSapcdS4fU#keyboard-and-mouse-shortcuts]{Keyboard and mouse shortcuts}</li>
+        <li>@UUID[.9a8SLXDQHfCxrZzR]{Creating your first investigator}</li>
+        <li>@UUID[.EQS1L753HOsOD4vR]{Character creation}</li>
+    </ul>
+    <h1>How to use the system</h1>
+    <ul>
+        <li>@UUID[.ag5ghFZ6hYIm2JyJ]{Active effects} - An active effect will modify an actor characteristic(s), attribute(s), skill(s).</li>
+        <li>@UUID[.EXFpS3WZu9pwEr6H]{Actor importer}</li>
+        <li>Actor Type: Character (TODO)</li>
+        <li>Actor Type: Container (TODO)</li>
+        <li>Actor Type: Creature (TODO)</li>
+        <li>Actor Type: NPC (TODO)</li>
+        <li>Chat link creator (TODO)</li>
+        <li>Character creation mode (TODO)</li>
+        <li>@UUID[.SgRmyJJ7tb4o5Zb9]{Combat} (TODO)</li>
+        <li>Development phase (TODO)</li>
+        <li>@UUID[.oFE5T3zT5PMhWbui]{Item Types} (TODO)</li>
+        <li>@UUID[.sJiiuIJZTToArDnD]{Item Type: Archetype} (TODO)</li>
+        <li>@UUID[.OaIgfX2Ij0vQoVtz]{Item Type: Book} (TODO)</li>
+        <li>@UUID[.w645thphP1Sd2Whe]{Item Type: Chases}</li>
+        <li>Item Type: Item (TODO)</li>
+        <li>@UUID[.PtxMa4YG5ZEkvJj9]{Item Type: Occupation}</li>
+        <li>@UUID[.gv3xcdEM8ugzJJdz]{Item Type: Setup}</li>
+        <li>@UUID[.7Ql88MphdUS0FvBv]{Item Type: Skill} (TODO)</li>
+        <li>Item Type: Spell (TODO)</li>
+        <li>Item Type: Status (TODO)</li>
+        <li>Item Type: Talent (TODO)</li>
+        <li>Item Type: Weapon (TODO)</li>
+        <li>@UUID[.9YesdNtaElDQaaaZ]{Link Creation Tool}</li>
+        <li>@UUID[.7sSX5w3psDau2CDn]{Links} (TODO)</li>
+        <li>Macros (TODO)</li>
+        <li>Rolls (TODO)</li>
+        <li>@UUID[.9xaysNap3U5XbkTn]{Sanity} (TODO)</li>
+        <li>Start Rest (TODO)</li>
+        <li>XP Gain (TODO)</li>
+    </ul>
+    <h1>Actor overview</h1>
+    <ul>
+        <li><em>Character</em> - A complete character, usually an investigator. @Compendium[CoC7.examples.JuI2aWDSEuQNKeUI]{Example Character}</li>
+        <li><em>Container</em> - An inventory container. @Compendium[CoC7.examples.r7bDSY4OYKxQYEas]{Example Container}</li>
+        <li><em>Creature</em> - A more simple character, suitable for creatures. @Compendium[CoC7.examples.XE2vjLG03wGfnYLw]{Example Creature}</li>
+        <li><em>NPC</em> - A more simple character, suitable for NPCs. @Compendium[CoC7.examples.4kSvDc4n13oFx8RG]{Example NPC}</li>
+    </ul>
+    <h1>Items overview</h1>
+    <ul>
+        <li><em>Archetype</em> - A set of skills and other stats that implement a Pulp Cthulhu archetype. These do not trigger automation in the system. @Compendium[CoC7.items.lu04TIRrg9P3vRqY]{Example Archetype}</li>
+        <li><em>Book</em> - An arcane tome that can hold spells and character improvements.</li>
+        <li><em>Item</em> - A piece of equipment.</li>
+        <li><em>Occupation</em> - A set of skills and other stats that implement a CoC occupation. @Compendium[CoC7.items.NOsh6EdNSjpjahDF]{Example Occupation}</li>
+        <li><em>Setup</em> - A set of default configurations for character, creature, or NPC creation. @Compendium[CoC7.items.CcH7CdXGtGTjMSCg]{Example Setup}</li>
+        <li><em>Skill</em> - A skill with a base percentage and some tags. @Compendium[CoC7.skills.UOuN0gESXPp2HXwH]{Example Skill}</li>
+        <li><em>Spell</em> - A magic spell.</li>
+        <li><em>Status</em> - An phobia or mania condition. @Compendium[CoC7.en-wiki-phobias-and-manias.Item.RSBgVRZFUDDCNhXo]{Example Mania}</li>
+        <li><em>Talent</em> -A special power for Pulp Cthulhu. These do not trigger automation in the system. @Compendium[CoC7.items.yqvwz769ZeJplOW7]{Example Talent}</li>
+        <li><em>Weapon</em> - An item with weapon statistics (this includes unarmed attacks). @Compendium[CoC7.items.3elxAwnv7WCUNwng]{Example Weapon}</li>
+    </ul>
+    <h1>Settings overview</h1>
+    <p>Click on the <em class="fas fa-cogs"> </em>Game Settings tab then under the Game Settings heading click on <em class="fas fa-cogs"> </em>Configure Settings.</p>
+    <p>Click on <em class="fas fa-cogs"> </em>System Settings</p>
+    <ul>
+        <li><em>Variant/Optional Rules</em> - Here you can turn on individual Pulp Cthulhu rules and other optional rules</li>
+        <li><em>Initiative Settings</em> - Additional settings for optional initiative rule</li>
+        <li><em>Roll Settings</em> - Default options for rolls</li>
+        <li><em>Chat Cards Settings</em> - Configure chat messages</li>
+        <li><em>Scene Settings</em> - Scene Settings</li>
+        <li><em>Game Artwork Settings</em> - This allows you to set a custom pause icon and message</li>
+        <li><em>Sheet Settings</em> - This allows you to change character sheet settings and optional CSS</li>
+        <li><em>Weapon Settings</em> - Weapon Settings</li>
+        <li><em>Developer And Debug Settings</em> - These settings can break your world when new updates are released so only use them on test worlds</li>
+        <li><em>Roll Table Settings</em> - When sanity rolls are made the system can automatically roll for a bout of madness. You can see example roll tables in the Sanity Roll Table compendiums</li>
+    </ul>
+    <h1>Call of Cthulhu Scene Menu</h1>
+    <p>To access this menu you will need to have an active scene which can be created in the <em class="fas fa-map"> </em>Scenes Directory. These options are only available to the Keeper.</p>
+    <ul>
+        <li>
+            <p><em>Keeper's tools</em></p>
+            <ul>
+                <li><em>Development phase</em>: When enabled, players can make improvement rolls for their marked skills.</li>
+                <li><em>Character creation mode</em>: When enabled, players can distribute points among their skills.</li>
+                <li><em>XP gain</em>: When enabled, a skill will be marked for improvement after a successful check.</li>
+                <li><em>Send a decoy roll to players</em>: When clicked, players will see a fake GM private roll.</li>
+                <li><em>Start Rest</em>: When click, pick characters to perform a rest and roll for XP gains.</li>
+            </ul>
+        </li>
+        <li><em>Roll !</em>: Used to roll 1d100 with a threshold, difficulty and bonus or penalty dice.</li>
+        <li><em>Create link</em>: Create a roll link for players to click</li>
+    </ul>
+    <h1>Keyboard and mouse shortcuts</h1>
+    <p>There are many elements in the sheets that trigger a dice roll when clicked. Usually a dialog is shown to prompt the user for a difficulty and a possible bonus or penalty. This behavior is modified with the following controls:</p>
+    <ul>
+        <li>Right click on any rollable element to include it in an opposed roll. As long as the card is open, all rolls made with a right click will be added to the opposed roll.</li>
+        <li>Alt + Right click on any rollable element to include it in a combined roll.</li>
+        <li>Shift + Left click on a rollable element will make a roll without asking for difficulty or bonus/penalty.</li>
+        <li>Ctrl + Left click on a rollable element will create a roll request. Only available for the GM.</li>
+        <li>Alt + Left click on sanity will prompt the player for minimum and maximum sanity loss.</li>
+    </ul>
+</div>
